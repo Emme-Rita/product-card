@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #11141a;
+  /* color: white; */
+  width: 100%;
+  position: fixed;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  /* color: white; */
+  padding: 20px 20px;
+}
+header nav .logo {
+  font-size: 25px;
+  color: white;
+  /* text-decoration: none; */
+  font-weight: 600;
+}
+header nav .nav-link {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+
+header nav .nav-link a {
+  text-decoration: none;
+  /* color: black; */
+  color: white;
+  transition: 0.6s;
+}
+
+header nav .nav-link a:hover {
+  color: rgb(41, 200, 211);
+}
+header nav .nav-links.active {
+  color: #0ef;
+}
+
+/* main .home {
+  background-color: #1f242d;
+  color: white;
+  height: 30em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+} */
+
+main :nth-child(odd) {
+  background-color: #1f242d;
+  color: white;
+  height: 30em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+/* #11141a */
+
+/* background: #1f242d; */
+/* color: #0ef; */
